@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/karanvishwakarma/Projects/JSONParser/JSONParser/JSONParser.csproj": {}
+  },
+  "projects": {
+    "/Users/karanvishwakarma/Projects/JSONParser/JSONParser/JSONParser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/karanvishwakarma/Projects/JSONParser/JSONParser/JSONParser.csproj",
+        "projectName": "JSONParser",
+        "projectPath": "/Users/karanvishwakarma/Projects/JSONParser/JSONParser/JSONParser.csproj",
+        "packagesPath": "/Users/karanvishwakarma/.nuget/packages/",
+        "outputPath": "/Users/karanvishwakarma/Projects/JSONParser/JSONParser/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/karanvishwakarma/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "WebApiContrib.Formatting.JavaScriptSerializer": {
+              "target": "Package",
+              "version": "[0.9.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

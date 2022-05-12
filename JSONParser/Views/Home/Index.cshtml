@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">JSONParser</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+    <label class="form-label" for="file">Upload JSON File</label>
+    <input type="file" class="form-control" name="JsonFile" id="JsonFile" />
+
+    <br>
+
+    <input type="submit" class="btn btn-primary" value="Upload File" />
+
+    <br>
+    <br>
+}
+
+@if(Model != null)
+            {
+                @foreach(KeyValuePair<string,int> entry in @Model){
+                   <table>
+                       <tr>
+                           <td>@entry.Key</td>
+                           <td>@entry.Value</td>
+                       </tr>
+                   </table>
+                }
+            }

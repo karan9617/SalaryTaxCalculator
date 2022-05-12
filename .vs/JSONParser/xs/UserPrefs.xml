@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{F9D2A8B0-3C2A-44F8-AA25-A3FC29FCBD56}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="JSONParser/Startup.cs">
+    <Files>
+      <File FileName="JSONParser/Controllers/HomeController.cs" Line="46" Column="40" />
+      <File FileName="JSONParser/Views/Home/Index.cshtml" Line="27" Column="34" />
+      <File FileName="JSONParser/Services/Services/JSONProcessing.cs" Line="34" Column="24" />
+      <File FileName="JSONParser/Services/Services/Interface/ISalaryMedianCalculator.cs" Line="6" Column="36" />
+      <File FileName="JSONParser/Services/Services/SalaryDivisionCalculator.cs" Line="14" Column="70" />
+      <File FileName="JSONParser/Services/Services/SalaryDivisionCalculatorForPoor.cs" Line="14" Column="20" />
+      <File FileName="JSONParser/Services/Services/Interface/IJSONProcessing.cs" Line="10" Column="39" />
+      <File FileName="JSONParser/Startup.cs" Line="27" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="JSONParser" expanded="True">
+            <Node name="JSONParser" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Services" expanded="True">
+                  <Node name="Interface" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.JSONParser PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
